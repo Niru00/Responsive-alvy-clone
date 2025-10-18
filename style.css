@@ -41,6 +41,7 @@ main nav .navcon a {
   border-radius: 0.5rem;
   text-transform: uppercase;
   display: none;
+  transition: all 0.2s ease;
 }
 main nav .navcon a span {
   background-color: #CCBB62;
@@ -48,6 +49,9 @@ main nav .navcon a span {
   padding: 0.1rem 0.5rem;
   border-radius: 50%;
   margin: 0.3rem;
+}
+main nav .navcon a:hover {
+  scale: 1.2;
 }
 main nav .navcon a:nth-child(6) {
   display: block;
@@ -317,13 +321,19 @@ main .team-grid .first-member .connect i {
   border: 1px solid white;
   padding: 0.5rem;
   border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+main .team-grid .first-member .connect i:hover {
+  scale: 1.3;
+  cursor: pointer;
 }
 main .team-grid .first-member .name {
+  margin: 1.2rem;
   border: 1px solid #959491;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   position: absolute;
-  top: 75%;
+  top: 71%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -363,13 +373,19 @@ main .team-grid .second-member .connect i {
   border: 1px solid white;
   padding: 0.5rem;
   border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+main .team-grid .second-member .connect i:hover {
+  scale: 1.3;
+  cursor: pointer;
 }
 main .team-grid .second-member .name {
+  margin: 1.2rem;
   border: 1px solid #959491;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   position: absolute;
-  top: 75%;
+  top: 71%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -409,13 +425,19 @@ main .team-grid .third-member .connect i {
   border: 1px solid white;
   padding: 0.5rem;
   border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+main .team-grid .third-member .connect i:hover {
+  scale: 1.3;
+  cursor: pointer;
 }
 main .team-grid .third-member .name {
+  margin: 1.2rem;
   border: 1px solid #959491;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   position: absolute;
-  top: 75%;
+  top: 71%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -487,6 +509,9 @@ main .team-grid .fifth-member .tag-info .job i {
   padding: 0.6rem;
   border-radius: 50%;
   font-size: 1.2rem;
+}
+main .team-grid .fifth-member .job:hover i {
+  rotate: 45deg;
 }
 main .contact {
   max-width: 100%;
@@ -563,6 +588,11 @@ main .footer .alvy-connect .connect i {
   border: 1px solid white;
   border-radius: 50%;
   padding: 0.7rem;
+  transition: all 0.3s ease;
+}
+main .footer .alvy-connect .connect i:hover {
+  cursor: pointer;
+  scale: 1.3;
 }
 main .footer .pages {
   padding: 1.5rem;
@@ -588,6 +618,10 @@ main .footer .pages .first-page a, main .footer .pages .middle-page a, main .foo
   color: #959491;
   font-size: 1.2rem;
   text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+main .footer .pages .first-page a:hover, main .footer .pages .middle-page a:hover, main .footer .pages .bottom-page a:hover {
+  scale: 1.2;
 }
 main .footer .pages .first-page a:nth-child(7) {
   background-color: #CCBB62;
